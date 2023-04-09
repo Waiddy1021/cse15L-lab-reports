@@ -3,6 +3,7 @@ In this post, I will show you how to remote connect on vscode using java.(window
 First and foremost, you will need to install vscode onto your computer 
 
 Which you can do here, by clicking on this link https://code.visualstudio.com/
+
 ![Image](Picture1.png)
 
 Once you have downloaded, you are going into your files on your computer and create a new folder with any name of your choosing!!
