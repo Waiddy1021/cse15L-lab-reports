@@ -67,7 +67,6 @@ list in a reversed order.The reason the first test problem was able to pass, was
 
 Part 3.
 
-One thing I leanred thats new today was to create a web server.It was difficult at first
+One thing I learned thats new today was to create a web server. It was difficult at first
 , but I was able to use some of the code we used in lecture and lab as a reference to
-writing my webserver.
-I am a beginner programmer, with not as much knowlegde of coding. I did study a little bit of python.
+writing my webserver. I am a beginner programmer, with not as much knowlegde of coding. I did study a little bit of python.
