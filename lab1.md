@@ -25,11 +25,12 @@ completing it you should have something like this.:)
 ![Image](Picture5.png)
 
 After connecting you can type in some commands such as "pwd, "cd", "cd ~", "ls -lat", "ls -a", "ls <directory> where <directory> is", 
-  "cat /home/linux/ieng6/cs15lsp23/public/Hello.txt", and many more.
+"cat /home/linux/ieng6/cs15lsp23/public/Hello.txt", and many more.
+Here are a few examples
+
+![Image](Picture6.png)
+  
   
 To log out run the command exit, or press Ctrl + d.
   
 Now you have finished!! :D!!
-
-
-
