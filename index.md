@@ -1,36 +1,74 @@
-In this post, I will show you how to remote connect on vscode using java.(windows)
+Part 1.
+The code for StringSearch:
 
-First and foremost, you will need to install vscode onto your computer 
+![Image](Img10.png)
 
-Which you can do here, by clicking on this link https://code.visualstudio.com/
+Adding the two request:
+/add-message?s=Hello:
 
-![Image](Picture1.png)
+![Image](Img11.png)
 
-Once you have downloaded, you are going into your files on your computer and create a new folder with any name of your choosing!!
-For mine I am choosing CSE15LSP23 as my folders name.
+when called the code is going to check its path, since the path contains "/add-message" it will use the second method written.
+in which will split the second half from the "=" sign
+Since parameter at index 0 equals "s", index 1 of the parameters will be added into the new Arrray list we have created.
+On the webserver, it will show the string you have added.
+The new Arraylist willnow conatin "Hello"
+Since we want to see what path we want to head to , "/add-message" is only specific to that method to add a string 
+If we use an Int like 123, it will still be added to the Arraylist, because the first method I have returns every item in the list to a String.
 
-After creating the folder, you can now open vscode
+/add-message?s=How are you:
 
-You are going to files located on the top right of vscode, and open the new folder you have just created, and create a new file
-![Image](Picture2.png)
+![Image](Img12.png)
 
-You can name the file anything you want, for this demonstration mine will be named Hello.txt and will have the following text "Hello There!".
-![Image](Picture3.png)
+This code will also function the same as the first, but at index 1 the string is different.
+Since we have called the same method again, with the same path, the new String should be added into the new Array list
+The new Arraylist we have created will now contain "Hello" and "How are you"
 
-Now, we will being to remote connect, on the bar located on the top right, you will click on terminal, and create a new terminal which should bring it up from the bottom. ![Image](Picture4.png)
 
-To connect, type in "scp Hello.txt(or the file name you have created) followed by your course specific account", and then type in your password to the account 
-Its going to say "Are you sure you want to continue connecting?" In which my professor (joe) would always say yes to when connecting to a new server. After
-completing it you should have something like this.:)
-![Image](Picture5.png)
+result after returning back:
 
-After connecting you can type in some commands such as "pwd, "cd", "cd ~", "ls -lat", "ls -a", "ls <directory> where <directory> is", 
-"cat /home/linux/ieng6/cs15lsp23/public/Hello.txt", and many more.
-Here are a few examples
+![Image](Img13.png)
 
-![Image](Picture6.png)
-  
-  
-To log out run the command exit, or press Ctrl + d.
-  
-Now you have finished!! :D!!
+Once you have remove the path, from the search bar, it should now show all the strings you have added into the web server. In which the first method is now called.
+returning the Arraylist whih contain "Hello" and "How are you"
+
+
+
+Part 2.
+
+One of the bugs we will be fixing up is the method reversed
+
+![Image](Img1.png)
+
+
+Here is one the the test method given to us, which when run will give us an OK pass. 
+
+![Image](Img2.png)
+
+However, all may seem good, but the code has an error in it. When given another test example, the expected value for the parameter[0] is supposed to be 3, but instead it was 0. 
+
+![Image](Img3.png)
+Test failed image:
+
+![Image](Img4.png)
+
+When, reading throughout the code, we can see a newarray has been created, but nothing is getting added into it. To fix the bug we will simplility rewrite line 20. and return newArray 
+
+![Image](Img5.png)
+Test pass Img, when the test is run again:
+
+![Image](Img6.png)
+
+and when it is run, all the test have been passed.
+
+This fixed the problem, because we know we have created a newArray, the previous code was only adding in empty slots, because newArray does not have anything in it. By rewriting the line, we are now adding the list of numbers in reverse order to the new Array in which it will return that 
+list in a reversed order.The reason the first test problem was able to pass, was because it was an empty list.
+
+
+Part 3.
+
+One thing I leanred thats new today was to create a web server.It was difficult at first
+, but I was able to use some of the code we used in lecture and lab as a reference to
+writing my webserver.
+I am a beginner programmer, with not as much knowlegde of coding. I did study a little bit of python.
+
