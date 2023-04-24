@@ -1,4 +1,5 @@
 Part 1.
+
 The code for StringSearch:
 
 ![Image](Img10.png)
