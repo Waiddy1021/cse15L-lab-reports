@@ -19,9 +19,25 @@ You can name the file anything you want, for this demonstration mine will be nam
 
 Now, we will being to remote connect, on the bar located on the top right, you will click on terminal, and create a new terminal which should bring it up from the bottom. ![Image](Picture4.png)
 
-To connect, type in "scp Hello.txt(or the file name you have created) followed by your course specific account", and then type in your password to the account 
-Its going to say "Are you sure you want to continue connecting?" In which my professor (joe) would always say yes to when connecting to a new server. After
-completing it you should have something like this.:)
+
+To connect, type in 
+
+····# code block
+
+····ssh cse15lsp23**@ieng6.ucsd.edu(for example)
+
+Its going to show this text in the terminal
+
+····# code block
+
+····The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+In which my professor (joe) would always say yes to when connecting to a new server. After
+completing it you should have something like this.# code block 
+
+
+
 ![Image](Picture5.png)
 
 After connecting you can type in some commands such as "pwd, "cd", "cd ~", "ls -lat", "ls -a", "ls <directory> where <directory> is", 
@@ -31,6 +47,19 @@ Here are a few examples
 ![Image](Picture6.png)
   
   
+  
+pwd command(print working directory): prints the working directory as shown in the picture.
+  
+cd command(Change directory): allows you to change the directory of the files to whatever you would like.As shown in the reference.In which I have typed "cd per15".
+Now my working directory is pointing towards per15.
+  
+cd ~ command: change the directory back previously
+  
+ls command: shows the list directory contents
+  
+Again there are many more commands to try out.
+  
+
 To log out run the command exit, or press Ctrl + d.
   
 Now you have finished!! :D!!
