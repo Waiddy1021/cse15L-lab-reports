@@ -21,18 +21,16 @@ Now, we will being to remote connect, on the bar located on the top right, you w
 
 
 To connect, type in 
-
-····# code block
-
-····ssh cse15lsp23**@ieng6.ucsd.edu(for example)
+```
+ssh cse15lsp23**@ieng6.ucsd.edu(for example)
+```
 
 Its going to show this text in the terminal
-
-····# code block
-
-····The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
 In which my professor (joe) would always say yes to when connecting to a new server. After
 completing it you should have something like this.# code block 
 
