@@ -101,7 +101,7 @@ will return:
  ```
  
  We see in the first example, The lines returned only included the term ```what``` nothing more and nothing less
- However, we see in the Second Example that nothing was returned, ass previously mentioned -w only allws us to search for that specific term. Unlike
+ However, we see in the Second Example that nothing was returned, ass previously mentioned -w only allows us to search for that specific term. Unlike
  the seocnd method provided in Number 2. Where ```grep -i "exam" pmed.0020191.txt```, was able to return the line with the word ```examiners```.
  
  Number 4:
