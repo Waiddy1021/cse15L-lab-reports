@@ -148,8 +148,7 @@ We see after putting in the directory ```/home/linux/ieng6/cs15lsp23/cs15lsp23ix
 in the folder, and searches for the term, also allowing we to see which folder it was in. In the Second example we see that all the output has the same
 directory ```/home/linux/ieng6/cs15lsp23/cs15lsp23ix/stringsearch-data/technical/plos/pmed.0020272.txt ```, but there several lines that contained ```what```.
 
-This lab report wouldn't be possible without the help of ChatGPT, which allowed me to see serveral different ways to use grep. For me personally, after learning new ways
-to use grep. I think ```grep -w "word" file.txt``` is the most helpful method.
+This lab report wouldn't be possible without the help of ChatGPT, which allowed me to see serveral different ways to use grep. For me personally, after learning new ways to use grep. I think ```grep -w "word" file.txt``` is the most helpful method. Also you guys may not be able to see this, but in the terminal in VScode, The ```term``` you search for will be highlighted in red.
 
 The link to ChatGPT can be found here: https://chat.openai.com/?model=text-davinci-002-render
 There are many different methods that ChatGPT can give to you, also It doesn't have to be the command ```grep```, There are many more options you could ask ChatGPT.
