@@ -39,23 +39,55 @@ Part 2.
 
 One of the bugs we will be fixing up is the method reversed
 
-![Image](Img1.png)
+```
+static int[] reversed(int[] arr){
+   int[]  newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i++){
+      arr[i] = newArray[arr.length - i - 1];
+      }
+      return arr;
+   }
+```
 
 
 Here is one the the test method given to us, which when run will give us an OK pass. 
 
-![Image](Img2.png)
+```
+@Test
+public void testReversed(){
+   int[] input1 = { };
+   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+   }
+```
 
 However, all may seem good, but the code has an error in it. When given another test example, the expected value for the parameter[0] is supposed to be 3, but instead it was 0. 
 
-![Image](Img3.png)
+```
+@Test
+public void testReversed(){
+   int[] input1 = { };
+   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+   int[] input2 = {2, 3};
+   assertArrayEquals(new int[]{3, 2}, ArrayExamples.reversed(input2));
+   }
+
+```
 Test failed image:
 
 ![Image](Img4.png)
 
 When, reading throughout the code, we can see a newarray has been created, but nothing is getting added into it. To fix the bug we will simplility rewrite line 20. and return newArray 
 
-![Image](Img5.png)
+```
+static int[] reversed(int[] arr){
+   int[]  newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i++){
+      arr[i] = newArray[arr.length - i - 1]; // instead of this line
+      newArray[i] = arr[arr.length - i - 1]; //new line to fix the bug
+      }
+      return arr;
+   }
+```
 Test pass Img, when the test is run again:
 
 ![Image](Img6.png)
