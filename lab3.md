@@ -150,7 +150,7 @@ directory ```/home/linux/ieng6/cs15lsp23/cs15lsp23ix/stringsearch-data/technical
 
 This lab report wouldn't be possible without the help of ChatGPT, which allowed me to see serveral different ways to use grep. For me personally, after learning new ways to use grep. I think ```grep -w "word" file.txt``` is the most helpful method. Also you guys may not be able to see this, but in the terminal in VScode, The ```term``` you search for will be highlighted in red.
 
-The link to ChatGPT can be found here: https://chat.openai.com/?model=text-davinci-002-render
+The link to ChatGPT can be found here: [Link]https://chat.openai.com/?model=text-davinci-002-render
 
 There are many different methods that ChatGPT can give to you, also It doesn't have to be the command ```grep```, There are many more options you could ask ChatGPT.
 
