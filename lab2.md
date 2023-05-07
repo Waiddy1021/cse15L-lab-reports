@@ -9,7 +9,7 @@ Adding the two request:
 
 ![Image](Img11.png)
 
-when called the code is going to check its path, since the path contains "/add-message" it will use the second method written.
+when called the code is going to check its path, since the path contains "/add-message" line 18 will be executed
 in which will split the second half from the "=" sign
 Since parameter at index 0 equals "s", index 1 of the parameters will be added into the new Arrray list we have created.
 On the webserver, it will show the string you have added.
