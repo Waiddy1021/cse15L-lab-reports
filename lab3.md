@@ -11,7 +11,7 @@ grep "term" file.txt
 ```
 
 How ever there are more ways on how you could use grep, In this report I will demonstrate four different ways.
-We will be using the file "pmed.0020191.txt", Since it has the least amount of words in it.
+We will be using the file ```pmed.0020191.txt```, Since it has the least amount of words in it.
 
 Number 1:
 ```
@@ -48,7 +48,7 @@ will return:
         permission? Who is to decide what is “historically significant”? Not to mention the
         comments [2] implied that they took a position on this issue.
 ```
-notice how in the first example output, The line that contains the string "Lori" is no where to be found, however it appears in the second example.
+notice how in the first example output, The line that contains the string ```Lori``` is no where to be found, however it appears in the second example.
 
 
 Number 2:
@@ -74,8 +74,8 @@ will return:
 governments, medical examiners, family members, or intrepid biographers are to be given
 ```
 
-In the first example only one line contained the word "biohisory", now in the line we see that Biohistory was capitalized, but it still returned the line.
-In the second example we narrowed the term down to "exam" and returned the line with the word "examiners", as "exam" is in it.
+In the first example only one line contained the word ```biohisory```, now in the line we see that Biohistory was capitalized, but it still returned the line.
+In the second example we narrowed the term down to ```exam``` and returned the line with the word ```examiners```, as ```exam``` is in it.
 
 Number 3:
 ```
@@ -100,9 +100,9 @@ will return:
  
  ```
  
- We see in the first example, The lines returned only included the term "what" nothing more and nothing less
+ We see in the first example, The lines returned only included the term ```what``` nothing more and nothing less
  However, we see in the Second Example that nothing was returned, ass previously mentioned -w only allws us to search for that specific term. Unlike
- the seocnd method provided in Number 2. Where grep -i "exam" pmed.0020191.txt, was able to return the line with the word "examiners".
+ the seocnd method provided in Number 2. Where ```grep -i "exam" pmed.0020191.txt```, was able to return the line with the word ```examiners```.
  
  Number 4:
  ```
