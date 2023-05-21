@@ -18,7 +18,7 @@ We will be using the file ```pmed.0020191.txt```, Since it has the least amount 
 grep -v "string" file.txt
 ```
 The option "-v" invert the match, will will return all lines in that file.txt that DOES NOT contain the string.
-First Example:
+***First Example***
 ```
 grep -v "Lori" pmed.0020191.txt
 ```
@@ -33,7 +33,8 @@ will return:
         meta-question: who is to decide who is to decide? I apologize to the authors if my brief
         comments [2] implied that they took a position on this issue.
 ```
-Second Example:
+---
+***Second Example***
 ```
 grep -v "I" pmed.0020191.txt
 ```
@@ -57,7 +58,7 @@ One way this method could be useful, is when you are writing methods, and when t
 grep -i "term" file.txt
 ```
 This option "-i" allows us to search for a term, not really specifically as it will return any word that matches/ or contains that term reguardless is its capitalized or not.
-First Example:
+***First Example***
 ```
 grep -i "biohistory" pmed.0020191.txt
 ```
@@ -66,7 +67,8 @@ will return:
 ```
  Constructing Ethical Guidelines for Biohistory” [1], neither advocates nor argues against
 ```
-Second Example:
+---
+***Second Example***
 ```
 grep -i "exam" pmed.0020191.txt
 ```
@@ -84,7 +86,7 @@ is in the text file, for me it is a difficult word to spell, however I would kno
 grep -w "term" file.txt
 ```
 The option "-w" will only allow you to search for that specific term in that line.
-First Example:
+***First Example***
 ```
 grep -w "what"
 ```
@@ -93,7 +95,8 @@ will return:
  remains: if such guidelines were to be established, what individuals, institutions,
  permission? Who is to decide what is “historically significant”? Not to mention the
  ```
- Second Example:
+ ---
+ ***Second Example***
  ```
  -w "exam" file.txt
  ```
@@ -115,7 +118,7 @@ will return:
  
  Unlike the method given for Number 1, "-r" is the complete opposite of the method, and will return the line with the term in it, However since we are using directory 
  for this method.It will go through all files in the specified directory and its subdirectories, and returns the names of any files that contain the specified term.
- First Example:
+ ***First Example***
  ```
  grep -r "Lori" /home/linux/ieng6/cs15lsp23/cs15lsp23ix/stringsearch-data/technical
  ```
@@ -132,8 +135,8 @@ The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Et
 /home/linux/ieng6/cs15lsp23/cs15lsp23ix/stringsearch-data/technical/plos/pmed.0020192.txt:
 Science piece with Lori B. Andrews that Hayden references, I am troubled
  ```
- 
- Second Example:
+ ---
+ ***Second Example***
  ```
  grep -r "what" /home/linux/ieng6/cs15lsp23/cs15lsp23ix/stringsearch-data/technical
  ```
