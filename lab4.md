@@ -25,7 +25,9 @@ Longer description is at the end of the report.
 
 We would need to log in to our ieng6 account
 
-```ssh cs15lsp23**@ieng6.ucs.edu```
+```
+ssh cs15lsp23**@ieng6.ucs.edu
+```
 
 and type in your password, unless you have generated a SSH key. I won't be able to explain that
 part, as I, Myself have struggle for around two hours generating it.
@@ -36,15 +38,21 @@ part, as I, Myself have struggle for around two hours generating it.
 
 we would need to clone the repository
 
-```$ git clone https://github.com/ucsd-cse15l-s23/lab7```
+```
+$ git clone https://github.com/ucsd-cse15l-s23/lab7
+```
 
 next we want to change our directory 
 
-```cd lab7```
+```
+cd lab7
+```
 
 and type in ```ls``` right after should bring up four files:
 
-```ListExamples.java  ListExamplesTests.java  lib  test.sh```
+```
+ListExamples.java  ListExamplesTests.java  lib  test.sh
+```
 
 ---
 
@@ -54,18 +62,22 @@ ListExamplesTest.java.
 **First**
 we would want to compile the java files:
 
-```javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java```
+```
+javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java
+```
 
-BTW: The ```*``` in ```.java```, just helps let bash fill in whatever file that has ```.java```
+BTW: The `*` in `.java`, just helps let bash fill in whatever file that has `.java`
 
-which in this case is ```ListExamples.java``` and ```ListExamplestest.java```
+which in this case is `ListExamples.java` and `ListExamplestest.java`
 
 ---
 
 **Second**
 Then we would need to run the test:
 
-```java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests```
+```
+java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
+```
 
 After running it we recieved an error:
 
@@ -98,7 +110,9 @@ So we would need to change the `1` in `Index1` to a `2`.
 One method, which is very fast is by using `vim`, which will allow us to edit in the terminal.
 by typing:
 
-```vim ListExamples.java```
+```
+vim ListExamples.java
+```
 
 That file will now open up in the terminal, in which you can hastly correct it.
 To get to the error we can use just our `keyboard`.
@@ -172,9 +186,13 @@ those in `()` is what you would type out
 # Step 6: recompile and check if it works
 
 Re-Using the same command from Step 3.
-```javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java```
+```
+javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java
+```
 
-```java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests```
+```
+java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
+```
 
 Output:
 ```
@@ -192,14 +210,26 @@ OK (2 tests)
 # Step 7: Commit and push
 
 1. To make sure the work has save 
-```cat ListExamples.java```
+```
+cat ListExamples.java
+```
 will show the currect output with the change on line 44.
 
 2. now we want to add in the java file we have modified
-```$ git remote add <URL>```
+
+
+```
+$ git remote add <URL>
+```
+
 and check to see if the file is in it
-```git status```
+
+```
+git status
+```
+
 Output should be like this
+
 ```
 On branch main
 Your branch is up to date with origin/main.
@@ -210,13 +240,20 @@ Changes to be committed:
 ```
 
 3. now we want to commit the file we have just added
-```$ git commit -m "(message)"```
+```
+$ git commit -m "(message)"
+```
 `-m` allows us to write a message and what we have done.
 4. We can also use the command 
- ```$ git log```
+ ```
+ $ git log
+ ```
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
  
- 5.  ```$ git push origin main```
+5. now we want to push the changes to Github
+```
+$ git push origin main
+```
 
 ---
 
@@ -246,7 +283,9 @@ There concludes an end to this lab report.
 # CHATGPT use
 Input:
 
-```why is vim use?```
+```
+why is vim use?
+```
 
 Output:
 ```
