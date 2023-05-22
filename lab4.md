@@ -68,15 +68,20 @@ Tests run: 2,  Failures: 1
 ```
 
 # Step 4: learning about the different commands used
+
 Now, that we know there's an error in the file, we would need to correct it. 
 The error in question is that `index1 is used instead of index2 in the final loop in merge`.
 So we would need to change the `1` in `Index1` to a `2`.
 One method, which is very fast is by using `vim`, which will allow us to edit in the terminal.
 by typing:
+
 ```vim ListExamples.java```
+
 That file will now open up in the terminal, in which you can hastly correct it.
 To get to the error we can use just our `keyboard`.
+
 ---
+
 ***Here are some keys that will be using to navigate through the terminal***
 
 * `<h>` to go left
@@ -106,10 +111,13 @@ allow us to look through all the places where the (word) is contained.
 * `<:> + <w> + <q>` one of the more used commands, allows us to save and exit.
 
 # Step 5: making the edit
+
 For the following list, I am going to include the list of keys pushed, to fix the file
 those letter in `<>` are the keys you would press
 those in `()` is what you would type out
+
 ---
+
 ***Slow and Simple***
 * `(/)` ```index1``` `<ENTER>`
 * `<n><n><n><n><n><n><n><n><n><n><n>`
@@ -133,6 +141,7 @@ those in `()` is what you would type out
 * `<ENTER>`
 
 # Step 6: recompile and check if it works
+
 Re-Using the same command from Step 3.
 ```javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java```
 
@@ -150,6 +159,7 @@ OK (2 tests)
 ***SUCCESS!!!!***
 
 # Step 7: Commit and push
+
 * To make sure the work has save 
 ```cat ListExamples.java```
 will show the currect output with the change on line 44.
