@@ -186,7 +186,10 @@ Changes to be committed:
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
  
  * `$ git push origin main`
+
+
 Which should give you the following output
+
 ```
 info: please complete authentication in your browser...
 Enumerating objects: 5, done.
@@ -199,9 +202,12 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/YourUseranme/lab7.git
    503ed81..b418fa1  main -> main
  ```
+ 
  And when checking on github, and looking at the commits:
  
+ 
  ![Image](Img1lab7.png)
+ 
  
  
  There concludes an end to this lab report.
