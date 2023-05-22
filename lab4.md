@@ -4,6 +4,17 @@ In this lab report we wil be editing fromt he command line using vim.
 If you want to follow along, we will be using this link from my CSE 15L class, lab 7:
 ```https://github.com/ucsd-cse15l-s23/lab7```
 
+# Why use vim?
+Vim is a powerful and popular text editor used for various purposes, 
+primarily in programming and system administration. Here are some reasons why Vim is widely used.
+Vim is designed to be efficient and optimized for speed. It offers numerous keyboard 
+shortcuts and commands that allow users to perform editing.Vim supports editing a wide range of file types,
+including plain text, code files (such as Java, C, Python, etc.), configuration files, and more. 
+It offers syntax highlighting, code folding, auto-indentation, and other features that enhance the editing experience 
+for different programming languages.
+
+Longer description is at the end of the report.
+
 # Step 1: logging into ieng6
 
 We would need to log in to our ieng6 account
@@ -169,6 +180,35 @@ Untracked files:
 * We can also use the command 
  ```$ git log```
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
+ 
+ * `$ git remote add origin <URL>`
+ *  now if we check the github account fo the URL, you would be able to see the last commit changes you have made be pushed into the code.
+
+
+# CHATGPT use
+Input:
+```why is vim use?```
+Output:
+```
+Vim is a powerful and popular text editor used for various purposes, primarily in programming and system administration. Here are some reasons why Vim is widely used:
+
+Efficiency: Vim is designed to be efficient and optimized for speed. It offers numerous keyboard shortcuts and commands that allow users to perform editing tasks quickly and efficiently. Once you become proficient with Vim, you can edit text more rapidly compared to traditional text editors.
+
+Versatility: Vim supports editing a wide range of file types, including plain text, code files (such as Java, C, Python, etc.), configuration files, and more. It offers syntax highlighting, code folding, auto-indentation, and other features that enhance the editing experience for different programming languages.
+
+Customization: Vim is highly customizable. You can configure its settings, create custom key mappings, and define your own commands. This flexibility allows you to tailor Vim to your workflow and preferences, making it a versatile and personalized editor.
+
+Modal editing: Vim uses a modal editing paradigm, where it has different modes for different purposes. The most commonly used modes are the "normal" mode for navigating and issuing commands, the "insert" mode for entering text, and the "visual" mode for selecting and manipulating text. This mode-based approach enables efficient editing without constantly reaching for the mouse.
+
+Extensibility: Vim supports an extensive plugin ecosystem. You can enhance its functionality by installing plugins that add features and integration with other tools. There are plugins available for code completion, version control integration, debugging, project management, and more.
+
+Portability: Vim is available on various operating systems, including Linux, macOS, and Windows. It is a terminal-based editor that can be used in a command-line environment, making it convenient for remote editing on servers or systems without a graphical user interface (GUI).
+
+Longevity: Vim has been around for several decades and has a large and active community of users and developers. It is continually maintained and receives updates, ensuring its compatibility with modern systems and evolving needs.
+
+While Vim has a steep learning curve compared to more beginner-friendly editors, its power and efficiency make it a preferred choice for many programmers and system administrators who value its speed, flexibility, and extensibility.
+```
+
  
  
 
