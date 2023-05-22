@@ -171,7 +171,7 @@ and check to see if the file is in it
 Output should be like this
 ```
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is up to date with origin/main.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
@@ -185,7 +185,7 @@ Changes to be committed:
  ```$ git log```
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
  
- * `$ git push origin main`
+ * ```$ git push origin main```
 
 
 Which should give you the following output
@@ -205,9 +205,7 @@ To https://github.com/YourUseranme/lab7.git
  
  And when checking on github, and looking at the commits:
  
- 
  ![Image](Img1lab7.png)
- 
  
  
  There concludes an end to this lab report.
