@@ -2,9 +2,11 @@ Hello again,
 
 In this lab report we wil be editing fromt he command line using vim.
 If you want to follow along, we will be using this link from my CSE 15L class, lab 7:
+
 ```https://github.com/ucsd-cse15l-s23/lab7```
 
 # Why use vim?
+
 Vim is a powerful and popular text editor used for various purposes, 
 primarily in programming and system administration. Here are some reasons why Vim is widely used.
 Vim is designed to be efficient and optimized for speed. It offers numerous keyboard 
@@ -20,7 +22,9 @@ Longer description is at the end of the report.
 # Step 1: logging into ieng6
 
 We would need to log in to our ieng6 account
+
 ```ssh cs15lsp23**@ieng6.ucs.edu```
+
 and type in your password, unless you have generated a SSH key. I won't be able to explain that
 part, as I, Myself have struggle for around two hours generating it.
 
@@ -29,10 +33,15 @@ part, as I, Myself have struggle for around two hours generating it.
 # Step 2:cloneing the repository
 
 we would need to clone the repository
+
 ```$ git clone https://github.com/ucsd-cse15l-s23/lab7```
+
 next we want to change our directory 
+
 ```cd lab7```
+
 and type in ```ls``` right after should bring up four files:
+
 ```ListExamples.java  ListExamplesTests.java  lib  test.sh```
 
 ---
@@ -42,17 +51,22 @@ We now want to check if ListExamples.java was written correctly by testing it wi
 ListExamplesTest.java.
 ***First***
 we would want to compile the java files:
+
 ```javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java```
 
 BTW: The ```*``` in ```.java```, just helps let bash fill in whatever file that has ```.java```
+
 which in this case is ```ListExamples.java``` and ```ListExamplestest.java```
+
 ---
 
 ***Second***
 Then we would need to run the test:
+
 ```java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests```
 
 After running it we recieved an error:
+
 ```
 JUnit version 4.13.2
 ..E
@@ -216,7 +230,8 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/YourUseranme/lab7.git
    503ed81..b418fa1  main -> main
- ```
+```
+   
 ---
  
 And when checking on github, and looking at the commits:
@@ -227,7 +242,9 @@ There concludes an end to this lab report.
 
 # CHATGPT use
 Input:
+
 ```why is vim use?```
+
 Output:
 ```
 Vim is a powerful and popular text editor used for various purposes, primarily in programming and system administration. Here are some reasons why Vim is widely used:
