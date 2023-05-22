@@ -15,12 +15,16 @@ for different programming languages.
 
 Longer description is at the end of the report.
 
+---
+
 # Step 1: logging into ieng6
 
 We would need to log in to our ieng6 account
 ```ssh cs15lsp23**@ieng6.ucs.edu```
 and type in your password, unless you have generated a SSH key. I won't be able to explain that
 part, as I, Myself have struggle for around two hours generating it.
+
+---
 
 # Step 2:cloneing the repository
 
@@ -30,6 +34,8 @@ next we want to change our directory
 ```cd lab7```
 and type in ```ls``` right after should bring up four files:
 ```ListExamples.java  ListExamplesTests.java  lib  test.sh```
+
+---
 
 # Step 3: Checking if the file runs correctly
 We now want to check if ListExamples.java was written correctly by testing it with
@@ -66,6 +72,7 @@ org.junit.runners.model.TestTimedOutException: test timed out after 500 millisec
 FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
+---
 
 # Step 4: learning about the different commands used
 
@@ -110,6 +117,8 @@ allow us to look through all the places where the (word) is contained.
 * `<:> + <q> + <!>` allows us to exit out of vim without saving, only use this when you have made a mistake, and don't want to press ***UNDO*** over and over
 * `<:> + <w> + <q>` one of the more used commands, allows us to save and exit.
 
+---
+
 # Step 5: making the edit
 
 For the following list, I am going to include the list of keys pushed, to fix the file
@@ -140,6 +149,9 @@ those in `()` is what you would type out
 * `<:> + <w> + <q>`
 * `<ENTER>`
 
+
+---
+
 # Step 6: recompile and check if it works
 
 Re-Using the same command from Step 3.
@@ -158,13 +170,15 @@ OK (2 tests)
 
 ***SUCCESS!!!!***
 
+---
+
 # Step 7: Commit and push
 
-* To make sure the work has save 
+1. To make sure the work has save 
 ```cat ListExamples.java```
 will show the currect output with the change on line 44.
 
-* now we want to add in the java file we have modified
+2. now we want to add in the java file we have modified
 ```$ git remote add <URL>```
 and check to see if the file is in it
 ```git status```
@@ -178,15 +192,16 @@ Changes to be committed:
         modified:   ListExamples.java
 ```
 
-* now we want to commit the file we have just added
+3. now we want to commit the file we have just added
 ```$ git commit -m "(message)"```
 `-m` allows us to write a message and what we have done.
-* We can also use the command 
+4. We can also use the command 
  ```$ git log```
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
  
- * ```$ git push origin main```
+ 5.  ```$ git push origin main```
 
+---
 
 Which should give you the following output
 
@@ -202,13 +217,12 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/YourUseranme/lab7.git
    503ed81..b418fa1  main -> main
  ```
+---
  
- And when checking on github, and looking at the commits:
+And when checking on github, and looking at the commits:
  
- ![Image](Img1lab7.png)
- 
- 
- There concludes an end to this lab report.
+![Image](Img1lab7.png)
+There concludes an end to this lab report.
 
 
 # CHATGPT use
