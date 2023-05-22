@@ -155,7 +155,7 @@ OK (2 tests)
 will show the currect output with the change on line 44.
 
 * now we want to add in the java file we have modified
-```$ git add ListExamples.java```
+```$ git remote add <URL>```
 and check to see if the file is in it
 ```git status```
 Output should be like this
@@ -166,12 +166,6 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   ListExamples.java
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        ListExamples.class
-        ListExamplesTests.class
-        StringChecker.class
 ```
 
 * now we want to commit the file we have just added
@@ -181,8 +175,26 @@ Untracked files:
  ```$ git log```
  to see the logs of the changes, if you were to make some changes on the same file for a year as an example.
  
- * `$ git remote add origin <URL>`
- *  now if we check the github account fo the URL, you would be able to see the last commit changes you have made be pushed into the code.
+ * `$ git push origin main`
+Which should give you the following output
+```
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/YourUseranme/lab7.git
+   503ed81..b418fa1  main -> main
+ ```
+ And when checking on github, and looking at the commits:
+ 
+ ![Image](Image1lab7)
+ 
+ 
+ There concludes an end to this lab report.
 
 
 # CHATGPT use
