@@ -167,7 +167,9 @@ what I input:
 ``` What ways could you use "grep" in bash for java?```
 
 What chatGPT responded with:
-```When using grep in Bash to search for patterns in Java code, you can employ various options and techniques. Here are a few examples:
+```
+
+When using grep in Bash to search for patterns in Java code, you can employ various options and techniques. Here are a few examples:
 
 Basic usage: To search for a specific string or pattern within Java files, you can use the following command:
 
@@ -193,11 +195,13 @@ Redirecting output: You can redirect the output of grep to a file using the > op
 
 grep "pattern" file.java > matched_lines.txt
 These are just a few examples of how you can utilize grep in Bash to search for patterns in Java code. The grep command offers many other options and features, which you can explore further by referring to its documentation (man grep).
+
 ```
 I also use ChatGPT to help come up with examples for the method ```grep -w``` as I couldn't come up with anything myself:
 ```in what ways is "grep -w" useful?```
 
 What ChatGPT output:
+
 ```
 The grep -w command is useful when you want to perform a "whole word" search using grep. It allows you to match patterns that are complete words 
 and not just substrings. Here are a few ways grep -w can be useful:
@@ -205,6 +209,7 @@ and not just substrings. Here are a few ways grep -w can be useful:
 Searching for exact word matches: When you want to search for a specific word and exclude partial matches or substrings, grep -w is handy. For example, if you want to find occurrences of the word "cat" in a file but exclude words like "catch" or "category," you can use:
 
 grep -w "cat" file.txt
+
 ```
 
 
