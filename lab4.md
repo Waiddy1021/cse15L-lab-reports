@@ -201,7 +201,7 @@ To https://github.com/YourUseranme/lab7.git
  ```
  And when checking on github, and looking at the commits:
  
- ![Image](Img1lab7)
+ ![Image](Img1lab7.png)
  
  
  There concludes an end to this lab report.
