@@ -30,7 +30,7 @@ part, as I, Myself have struggle for around two hours generating it.
 
 ---
 
-# Step 2:cloneing the repository
+# Step 2: cloneing the repository
 
 we would need to clone the repository
 
@@ -49,7 +49,7 @@ and type in ```ls``` right after should bring up four files:
 # Step 3: Checking if the file runs correctly
 We now want to check if ListExamples.java was written correctly by testing it with
 ListExamplesTest.java.
-***First***
+**First**
 we would want to compile the java files:
 
 ```javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java```
@@ -60,7 +60,7 @@ which in this case is ```ListExamples.java``` and ```ListExamplestest.java```
 
 ---
 
-***Second***
+**Second**
 Then we would need to run the test:
 
 ```java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests```
@@ -103,32 +103,33 @@ To get to the error we can use just our `keyboard`.
 
 ---
 
-***Here are some keys that will be using to navigate through the terminal***
+**Here are some keys that will be using to navigate through the terminal**
 
-* `<h>` to go left
-* `<j>` to go down
-* `<k>` to go up
-* `<l>` to go right
+1. `<h>` to go left
+2. `<j>` to go down
+3. `<k>` to go up
+4. `<l>` to go right
 ---
 
-***More: list of keys to help speed up the editing***
+**More: list of keys to help speed up the editing**
+
 those letter in `<>` are the keys you would press
 those in `()` is what you would type out
 
-* `(number) + <k>` allows us to move up n times
-* `<SHIFT> + <g>` allows us to move to the end of the file
-* `<e>` allows us to go to the last letter of the word
-* `</> + (word)` allows us to search for the word
-* `<n>` relating to the previous command,if there are more than one of the word we are searching for, this will
+1. `(number) + <k>` allows us to move up n times
+2. `<SHIFT> + <g>` allows us to move to the end of the file
+3. `<e>` allows us to go to the last letter of the word
+4. `</> + (word)` allows us to search for the word
+5. `<n>` relating to the previous command,if there are more than one of the word we are searching for, this will
 allow us to look through all the places where the (word) is contained.
-* `<x>` deletes the letter where your cursor is hovering over` you will have to be in normal mode`
-* `<i>` allows us to go into ***INSERT*** mode out of ***NORMAL*** mode, in which we can type into the terminal.
-* `<w>` allows us to save our work
-* `<u>` undo the last edit you made
-* `<CTRL> + <r>` redo the last edit you made
-* `<ESC>` can help exit out of ***INSERT*** mode, or allows us to exit vim by the next following commands
-* `<:> + <q>` allows us to exit out of vim, however only if you have save the file.
-* `<:> + <q> + <!>` allows us to exit out of vim without saving, only use this when you have made a mistake, and don't want to press ***UNDO*** over and over
+6. `<x>` deletes the letter where your cursor is hovering over` you will have to be in normal mode`
+7. `<i>` allows us to go into ***INSERT*** mode out of ***NORMAL*** mode, in which we can type into the terminal.
+8. `<w>` allows us to save our work
+9. `<u>` undo the last edit you made
+10. `<CTRL> + <r>` redo the last edit you made
+11. `<ESC>` can help exit out of ***INSERT*** mode, or allows us to exit vim by the next following commands
+12. `<:> + <q>` allows us to exit out of vim, however only if you have save the file.
+13. `<:> + <q> + <!>` allows us to exit out of vim without saving, only use this when you have made a mistake, and don't want to press ***UNDO*** over and over
 * `<:> + <w> + <q>` one of the more used commands, allows us to save and exit.
 
 ---
