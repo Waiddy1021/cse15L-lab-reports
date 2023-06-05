@@ -51,7 +51,9 @@ Number 1: rewrite the junit and hamcrest for CPATH in line 1: CPATH =  ```../lib
                                                                                                                                     
 or
 
-Number 2: remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57
+Number 2: remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57. Which is basically the same
+as Number 1, but it helps to see it in the javac and java line instead of continously scrolling up and down to check if
+the the CPATH is written correctly.
  
 Since the TA is gieven the description that the Student is using vim to edit and see his files.
 The TA might include some keys to press and edit it
