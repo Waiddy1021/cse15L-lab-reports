@@ -12,9 +12,9 @@ problems tring to get their code to run.
 
 All students in CSE15L can write a post through the course's EdStem:
 
-![Image](Lab5Image1.png)
-![Image](Lab5Image2.png)
-![Image](Lab5Image3.png)
+![Image](lab5Image1.png)
+![Image](lab5Image2.png)
+![Image](lab5Image3.png)
 
 # TA's Response
 What the TA might do is to read through the students problem,
