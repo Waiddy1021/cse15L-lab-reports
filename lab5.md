@@ -46,12 +46,12 @@ especially the CPATH.
  
 What the TA might consider is:
 
-1.  rewrite the junit and hamcrest for CPATH in line 1: CPATH =  ```../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:.``` instead.    
+Number 1: rewrite the junit and hamcrest for CPATH in line 1: CPATH =  ```../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:.``` instead.    
 
                                                                                                                                     
 or
 
-2.  remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57
+Number 2: remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57
  
 Since the TA is gieven the description that the Student is using vim to edit and see his files.
 The TA might include some keys to press and edit it
