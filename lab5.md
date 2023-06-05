@@ -46,12 +46,12 @@ especially the CPATH.
  
 What the TA might consider is:
 
-1. rewrite the junit and hamcrest for CPATH in line 1: CPATH =  ```../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:.``` instead.    
+1.  rewrite the junit and hamcrest for CPATH in line 1: CPATH =  ```../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:.``` instead.    
 
                                                                                                                                     
 or
 
-2. remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57
+2.  remove the $CPATH and direct put in that quote on the javac and java in line 56 & 57
  
 Since the TA is gieven the description that the Student is using vim to edit and see his files.
 The TA might include some keys to press and edit it
@@ -78,15 +78,15 @@ The student ran some test, and got his expected outputs
 ** links used by the student to run test**
 
 ---
-Link 1: [Link](https://github.com/ucsd-cse15l-f22/list-methods-corrected):
+Link 1:https://github.com/ucsd-cse15l-f22/list-methods-corrected,[Link](https://github.com/ucsd-cse15l-f22/list-methods-corrected):
 
 Should pass all test
 
-Link 2: [Link](https://github.com/ucsd-cse15l-f22/list-methods-filename):
+Link 2:https://github.com/ucsd-cse15l-f22/list-methods-filename,[Link](https://github.com/ucsd-cse15l-f22/list-methods-filename):
 
 Return invalid due to the file name not matching
 
-Link 3: [Link](https://github.com/ucsd-cse15l-f22/list-methods-lab3):
+Link 3:https://github.com/ucsd-cse15l-f22/list-methods-lab3,[Link](https://github.com/ucsd-cse15l-f22/list-methods-lab3):
 
 Shoud return some error with the test
   
